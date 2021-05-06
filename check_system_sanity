@@ -59,7 +59,7 @@ function syscheck_selinux {
         return 1
     fi
 
-    echo "$CHECKNAME: good"
+    echo "$checkname: good"
     return 0
 }
 
