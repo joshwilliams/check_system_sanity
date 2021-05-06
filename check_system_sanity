@@ -128,7 +128,7 @@ function show_help {
 # Parse arguments
 for arg in "$@"; do
     case $arg in
-        --show-good)
+        --show-good | --verbose | -v)
             showgood=1
             ;;
         --skip-*)
